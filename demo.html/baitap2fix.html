@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            
+        }
+        .navbar {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+
+        .menu {
+           
+            height: 72px;
+            width: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 24px;
+            align-items: center;
+        }
+
+        .logo {
+            margin-left: 165px;
+            
+        }
+
+        .download {
+            margin-right: auto;
+            margin-left: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between
+        }
+         .download img {
+            height: 40px;
+         }
+
+         .hero {
+            width: 80%;
+            height: 900px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+
+        }
+        .heading {
+            width: 80%;
+            flex:1;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 120px;
+            
+        }
+
+        .footer {
+            flex: 1;
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 160px;
+            
+        }
+        
+        .circle {
+            background-color: blueviolet;
+            width: 1200px;
+            height: 1200px;
+            border-radius: 100%;
+            position: absolute;
+            bottom: -950px;
+            z-index: -1;
+            opacity: 20%;
+        }
+
+        .circleWrapper {
+            width: 120px;
+            height: 1200px;
+            display: flex;
+            align-items: flex-start;
+            position: absolute;
+            right: 85%;
+            bottom: 5%;
+            transform: translate(85%, 5%);
+            overflow: hidden;
+        }
+    
+
+
+    </style>
+    
+</head>
+<body>
+    <div class="navbar">
+       <div class="logo"><img src="images/logo.png" alt=""></div>
+       <div class="menu">
+         <div class="menuitem">About</div>
+         <div class="menuitem">Products</div>
+         <div class="menuitem">Pricing</div>
+         <div class="menuitem">Blog</div>
+         <div class="menuitem">Jobs</div>
+         <div class="menuitem">More<i class="fas fa-chevron-down"></i></div>
+        </div>
+        <div class="download">
+            <img src="images/Layer 2.png" alt="Image 1">
+            <img src="images/Group.png" alt="Image 2">
+        </div>
+       
+    </div>
+    <div class="hero">
+        <div class="heading">
+            <div style="font-size: 72px; line-height: 98px; font-weight: 900px;">Track your product sales from anywhere, anytime</div>
+            <div
+            style="
+                background-color: blueviolet; 
+                width: 154px; height: 42px; 
+                border-radius: 6px; 
+                display: flex; 
+                justify-content: center;
+                align-items: center;
+                color: white;
+                margin-top: 24px;
+            "
+            >Get started</div>
+        </div>
+        <div class="footer">
+            <img src="images/iPhone X.png" alt="">
+        </div>    
+    </div>
+    <div class="circleWrapper">
+        <div class="circle"></div> 
+    </div>
+    
+</body>
+</html>
