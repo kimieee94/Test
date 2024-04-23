@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: red;
+            display: flex;
+        }
+            
+
+        .container {
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            
+        }
+        
+        .menu {
+            width: 200px;
+            display: flex;
+            align-items: center;  
+            justify-content: space-between;
+        }
+
+        .menuitem {
+            font-size: 14px;
+            margin-right: 24px;
+        }
+
+        .menuitem i {
+            margin-left: 5px;
+            font-size: 10px;
+            color: #555;
+        }
+
+        .menuitem.extra-item img {
+            margin: 12px;
+        }
+
+        .text {
+            text-align: center;
+            max-width: 100%;
+            font-size: 48px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 0.5;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .button{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin-bottom: 20px
+
+        }
+
+        .container img {
+            width: 400px;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            
+        }
+
+        .circleWrapper {
+            width: 900px;
+            height: 100px;
+            position: absolute;
+            right: 50%;
+            bottom: 50%;
+            transform: translate(50%, 50%);
+            overflow: hidden;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .circle {
+            width: 900px;
+            height: 900px;
+            border-radius: 100%;
+            background-color: #D6B1FF;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(50%, 50%);
+
+        }
+      
+        
+
+
+       
+    
+        
+    
+    
+
+    </style>
+    
+
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="images/logo.png" alt="logo"></div></div>
+        <div class="menu">
+            <div class="menuitem">About</div>
+            <div class="menuitem">Products</div>
+            <div class="menuitem">Pricing</div>
+            <div class="menuitem">Blog</div>
+            <div class="menuitem">Jobs</div>
+            <div class="menuitem">More<i class="fas fa-chevron-down"></i></div>
+        </div>
+        <div class="download">
+            <div class="appstore"><img src="images/Layer 2.png" alt="Image 1"></div>
+            <div class="ggplay"><img src="images/Group.png" alt="Image 2"></div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="text">
+            <p><strong>Track your product sales from</strong></p>
+            <p><strong>anywhere, anytime.</strong></p>
+        </div>
+        <button class="button">Start selling</button>
+        <img src="images/iPhone X.png" alt="">
+        <div class="circleWrapper">
+            <div class="circle"></div>
+        </div>
+       
+       
+    
+    </div>
+
+    
+
+    
+
+
+
+</body>
+</html>

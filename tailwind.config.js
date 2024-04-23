@@ -7,24 +7,20 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        abc:"64px",
-        xyz: "32px"
+        H2: ["48px" , "64px"],
+        body: ["18px" , "32px"],
+        H3: ["40px" , "54px"]
       },
-      Color: {
+      colors: {
         custom: {
-          50: "#F4F5F7",
-          100: "FFFFFF"
+          50:"#F7F4F4",
+          100: "#FFFFFF",
+          120: "#C4C4C4"
         }
-      }
-
-      }
-
-        
-      }
-     }
-      
+      },
+    },
   },
-  variants: {
+  variant: {
     extend: {},
   },
   plugins: [],
