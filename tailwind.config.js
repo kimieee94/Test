@@ -7,17 +7,22 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        abc:"13px",
-        xyz: "25px"
+        abc:"64px",
+        xyz: "32px"
       },
-      Colors: {
+      Color: {
         custom: {
-          50: "#FFFF00",
-          100: "#00000"
+          50: "#F4F5F7",
+          100: "FFFFFF"
         }
       }
-     }
 
+      }
+
+        
+      }
+     }
+      
   },
   variants: {
     extend: {},
