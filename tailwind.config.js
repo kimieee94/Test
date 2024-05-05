@@ -18,8 +18,15 @@ module.exports = {
           120: "#C4C4C4"
         }
       },
+      width: {
+        1200:"1200px",
+        120:"120px",
+      },
+      height: {
+        1200:"1200px",
+      },
+    
     },
-  },
   variant: {
     extend: {},
   },
