@@ -25,10 +25,13 @@ module.exports = {
       height: {
         1200:"1200px",
       },
-    
+      margin: {
+        42: "168px",
+      },
     },
-  variant: {
+    variant: {
     extend: {},
-  },
-  plugins: [],
+    },
+    plugins: [],
+  }
 }
